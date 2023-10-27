@@ -11,14 +11,16 @@ const Skills = () => {
             <div className="skills__container grid">
                 {skills.map(({title, content, images}, index) => {
                     return (
-                        <div className="skills__item">
-                            {images.map(img => {
+                        <div className="skills__item grid">
+                            <h3 className="skills__category">{title}</h3>
+                            {content.map((item, index) => {
                                 return (
-                                    <img src={img} alt="technology" className="skills__img"></img>
+                                    <div className="skills__content">
+                                        <img src={images[index]} alt="technology" className="skills__img"></img>
+                                        <p className="skills__text">{item}</p>
+                                    </div>
                                 )
                             })}
-                            <h3 className="skills__title">{title}</h3>
-                            <p className="skills__content">{content}</p>
                         </div>
                     );
                 })}
@@ -30,16 +32,19 @@ const Skills = () => {
             <div className="skills__container grid">
                 {secondarySkills.map(({title, content, images}, index) => {
                     return (
-                        <div className="skills__item">
-                            {images.map(img => {
+                        <div className="skills__item grid">
+                            <h3 className="skills__category">{title}</h3>
+                            {content.map((item, index) => {
                                 return (
-                                    <img src={img} alt="technology" className="skills__img"></img>
+                                    <div className="skills__content">
+                                        <img src={images[index]} alt="technology" className="skills__img"></img>
+                                        <p className="skills__text">{item}</p>
+                                    </div>
                                 )
                             })}
-                            <h3 className="skills__title">{title}</h3>
-                            <p className="skills__content">{content}</p>
                         </div>
                     );
+
                 })}
             </div>
 

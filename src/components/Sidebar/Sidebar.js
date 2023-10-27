@@ -1,57 +1,58 @@
 import "./sidebar.css";
-import Logo from "../../assets/logo.svg";
 import { useState } from "react";
 
 const Sidebar = () => {
   const [toggle, showMenu] = useState(false);
   return (
     <>
-      <aside className={toggle ? "aside show-menu" : "aside"}>
-        <a href="#home" className="nav__logo">
+      <nav className={toggle ? "navbar show-menu" : "navbar"}>
+        {/* <a href="#home" className="nav__logo">
           <img src={Logo} alt="logo"></img>
-        </a>
+        </a> */}
 
-        <nav className="nav">
-          <div className="nav__menu">
-            <ul className="nav__list">
-              <li className="nav__item">
-                <a href="#home" className="nav__link">
-                  <i className="icon-home"></i>
-                </a>
-              </li>
-              <li className="nav__item">
-                <a href="#about" className="nav__link">
-                  <i className="icon-user-following"></i>
-                </a>
-              </li>
-              <li className="nav__item">
-                <a href="#skills" className="nav__link">
-                  <i className="icon-graduation"></i>
-                </a>
-              </li>
-              <li className="nav__item">
-                <a href="#services" className="nav__link">
-                  <i className="icon-briefcase"></i>
-                </a>
-              </li>
-              <li className="nav__item">
-                <a href="#projects" className="nav__link">
-                  <i className="icon-layers"></i>
-                </a>
-              </li>
-              <li className="nav__item">
-                <a href="#contact" className="nav__link">
-                  <i className="icon-note"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+        <ul className="nav__list">
+          <li className="nav__item">
+            <a href="#home" className="nav__link">
+              <i className="icon-home"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#about" className="nav__link">
+              <i className="icon-user-following"></i>
+              <span>About Me</span>
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#skills" className="nav__link">
+              <i className="icon-graduation"></i>
+              <span>Skills</span>
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#services" className="nav__link">
+              <i className="icon-briefcase"></i>
+              <span>Services</span>
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#projects" className="nav__link">
+              <i className="icon-layers"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="#contact" className="nav__link">
+              <i className="icon-note"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
 
-        <div className="nav__footer">
+        {/* <div className="nav__footer">
           <span className="copyright">&copy; YV </span>
-        </div>
-      </aside>
+        </div> */}
+      </nav>
 
       <div
         className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"}

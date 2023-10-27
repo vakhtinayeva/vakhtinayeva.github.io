@@ -91,6 +91,16 @@
     .contact__info {
         text-align: center;
     }
+
+    .contact__social {
+        flex-direction: row;
+        column-gap: 1rem;
+        justify-content: center;
+    }
+
+    .contact__social-link span {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 350px) {

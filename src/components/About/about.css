@@ -1,5 +1,5 @@
 .about__container {
-    grid-template-columns: 7rem 20rem auto;
+    grid-template-columns: 8rem 20rem auto;
     column-gap: 4rem;
 }
 
@@ -109,7 +109,18 @@
         justify-content: center;
         row-gap: 1.875rem; 
     }
-    /* locate the horizontally */
+
+    .about__data {
+        grid-template-columns: 330px 330px;
+    }
+
+    .about__description {
+        grid-column: 1 / span 2;
+    }
+
+    .about__data div:nth-of-type(3) {
+        display: none;
+    }
 
     .about__data::before {
         border-left: 10px solid transparent;
@@ -127,6 +138,18 @@
 @media screen and (max-width: 768px) {
     .about__container {
         grid-template-columns: 350px;
+    }
+
+    .about__data {
+        grid-template-columns: 300px;
+    }
+
+    .about__description {
+        grid-column: 1;
+    }
+
+    .about__data div:nth-of-type(3) {
+        display: grid;
     }
 
     .about__data::before {

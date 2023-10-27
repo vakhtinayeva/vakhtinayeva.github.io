@@ -13,19 +13,19 @@ const Contact = () => {
           <div className="contact__social">
             <a href="" className="contact__social-link" target="_blank">
               <i class="fa-solid fa-envelope"></i>
-              vakhtina.yeva@gmail.com
+              <span>vakhtina.yeva@gmail.com</span>
             </a>
             <a href="" className="contact__social-link" target="_blank">
               <i class="fa-brands fa-square-whatsapp"></i>
-              +380638686801
+              <span>+380638686801</span>
             </a>
             <a href="" className="contact__social-link" target="_blank">
               <i class="fa-brands fa-github"></i>
-              vakhtinayeva
+              <span>vakhtinayeva</span>
             </a>
             <a href="" className="contact__social-link" target="_blank">
               <i class="fa-brands fa-square-instagram"></i>
-              @eve._va
+              <span>@eve._va</span>
             </a>
           </div>
         </div>
@@ -65,7 +65,6 @@ const Contact = () => {
               placeholder="Write your message"
             ></textarea>
           </div>
-
           <button className="btn">Send Message</button>
         </form>
       </div>

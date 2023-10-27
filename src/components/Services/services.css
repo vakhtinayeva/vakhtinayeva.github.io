@@ -1,7 +1,3 @@
-#services {
-    margin-left: 7rem;
-}
-
 .services__container {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.875rem;

@@ -8,6 +8,7 @@ import mysql from "../../assets/mysql.png";
 import redis from "../../assets/redis.png";
 import typeorm from "../../assets/typeorm.png";
 import prisma from "../../assets/prisma.jpg";
+import sequelize from "../../assets/sequelize.png";
 import jest from "../../assets/jest.png";
 import mocha from "../../assets/mocha.png";
 import chai from "../../assets/chai.png";
@@ -71,55 +72,55 @@ const skills = [
   {
     id: 1,
     title: "Languages",
-    content: "JavaScript, TypeScript",
+    content: ["JavaScript", "TypeScript"],
     images: [js, ts],
   },
   {
     id: 2,
     title: "Environment",
-    content: "Node.js",
+    content: ["Node.js"],
     images: [node],
   },
   {
     id: 3,
     title: "Frameworks & Libraries",
-    content: "Express.js, Nest.js",
-    images: [nest, express],
+    content: ["Express.js", "Nest.js"],
+    images: [express, nest],
   },
   {
     id: 4,
     title: "Databases",
-    content: "PostgreSQL, MySQL, Redis",
+    content: ["PostgreSQL", "MySQL", "Redis"],
     images: [mysql, postgres, redis],
   },
   {
     id: 5,
     title: "ORMs",
-    content: "TypeORM, PrismaORM",
-    images: [prisma, typeorm],
+    content: ["TypeORM", "PrismaORM", "Sequelize"],
+    images: [prisma, typeorm, sequelize],
   },
   {
     id: 6,
     title: "Testing tools",
-    content: "Jest, Mocha, Chai",
+    content: ["Jest", "Mocha", "Chai"],
     images: [jest, mocha, chai],
   },
   {
     id: 7,
     title: "DevOps",
-    content: "Docker, Jenkins",
+    content: ["Docker", "Jenkins"],
     images: [docker, jenkins],
   },
   {
     id: 8,
     title: "Version control systems",
-    content: "GitHub, GitLub",
+    content: ["GitHub", "GitLub"],
     images: [github, gitlab],
   },
   {
     id: 9,
     title: "PM tools",
-    content: "Jira, Confluence",
+    content: ["Jira", "Confluence"],
     images: [jira, confluence],
   },
 ];
@@ -128,19 +129,19 @@ const secondarySkills = [
   {
     id: 1,
     title: "Languages",
-    content: "Java, Python",
-    images: [python, java],
+    content: ["Java", "Python"],
+    images: [java, python],
   },
   {
     id: 2,
     title: "Front-End technologies",
-    content: "HTML, CSS",
-    images: [front],
+    content: ["HTML", "CSS"],
+    images: [front, front],
   },
   {
     id: 3,
     title: "Frameworks & Libraries",
-    content: "React",
+    content: ["React"],
     images: [react],
   },
 ]
