@@ -1,5 +1,6 @@
 import "./skills.css";
-import { skills, secondarySkills } from "../About/data";
+import { experience } from "../../assets/data/experience";
+import { knowledge } from "../../assets/data/knowledge";
 
 const Skills = () => {
     return (
@@ -9,7 +10,7 @@ const Skills = () => {
                 Technologies I have <span>experience</span> with
             </p>
             <div className="skills__container grid">
-                {skills.map(({title, content, images}, index) => {
+                {experience.map(({title, content, images}, index) => {
                     return (
                         <div className="skills__item grid">
                             <h3 className="skills__category">{title}</h3>
@@ -30,9 +31,9 @@ const Skills = () => {
                 Technologies I have good <span>understanding</span> of
             </p>
             <div className="skills__container grid">
-                {secondarySkills.map(({title, content, images}, index) => {
+                {knowledge.map(({title, content, images}, index) => {
                     return (
-                        <div className="skills__item grid">
+                        <div className="skills__item grid" key={index}>
                             <h3 className="skills__category">{title}</h3>
                             {content.map((item, index) => {
                                 return (

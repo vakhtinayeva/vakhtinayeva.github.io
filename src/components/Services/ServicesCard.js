@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Card = (props) => {
+const ServicesCard = (props) => {
     const [hidden, setHidden] = useState(false);
 
     const hide = () => {
@@ -17,4 +17,4 @@ const Card = (props) => {
     )
 }
 
-export default Card;
+export default ServicesCard;

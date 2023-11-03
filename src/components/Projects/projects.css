@@ -60,10 +60,23 @@
     margin: 0 0 0.98rem;
     padding: 0 1.25rem;
     position: absolute;
-    top: 3.75rem;
+    top: 3rem;
     transform: translateY(30px);
     transform: .3s;
     opacity: 0;
+}
+
+.project__description {
+    color: #fff;
+    position: absolute;
+    font-size: var(--smaller-font-size);
+    top: 5rem;
+    margin: 0 0 0.98rem;
+    padding: 0 1.25rem;
+    transform: translateY(30px);
+    transform: .3s;
+    opacity: 0;
+    text-align: justify;
 }
 
 .project__button {
@@ -94,7 +107,8 @@
 }
 
 .project__card:hover .project__title,
-.project__card:hover .project__category {
+.project__card:hover .project__category,
+.project__card:hover .project__description {
     opacity: 1;
     transform: translateY(0);
 }

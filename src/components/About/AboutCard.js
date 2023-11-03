@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Card = (props) => {
+const AboutCard = (props) => {
   const [readMore, setReadMore] = useState(false);
 
   const expand = () => {
@@ -9,7 +9,7 @@ const Card = (props) => {
 
   if (props.year) {
     return (
-      <div className="card__item">
+      <div className="card__item" key={props.key}>
         <i className={props.icon}></i>
         <span className="card__date">{props.year}</span>
         <h3 className="card__title">{props.title}</h3>
@@ -25,7 +25,7 @@ const Card = (props) => {
       return <p className="card__text">{value}</p>;
     });
     return (
-      <div className="card__item">
+      <div className="card__item" key={props.key}>
         <i className={props.icon}></i>
         <h3 className="card__title">{props.title}</h3>
         {content}
@@ -34,4 +34,4 @@ const Card = (props) => {
   }
 };
 
-export default Card;
+export default AboutCard;

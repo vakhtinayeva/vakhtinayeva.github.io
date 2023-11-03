@@ -1,7 +1,8 @@
-import Avatar from "../../assets/avatar1.jpeg";
-import { data, timeline } from "./data";
-import Card from "../About/Card";
+import Avatar from "../../assets/images/avatar1.jpeg";
+import AboutCard from "./AboutCard";
 import "./about.css";
+import { about } from "../../assets/data/about";
+import { timeline } from "../../assets/data/timeline";
 
 const About = () => {
   return (
@@ -17,14 +18,14 @@ const About = () => {
             user-centric web solutions through innovative development and
             effective collaboration.
           </p>
-          {data.map((value, id) => {
+          {about.map((value, id) => {
             return (
-              <Card
+              <AboutCard
                 key={id}
                 icon={value.icon}
                 title={value.title}
                 desc={value.desc}
-              ></Card>
+              ></AboutCard>
             );
           })}
         </div>
@@ -32,14 +33,14 @@ const About = () => {
         <div className="about__timeline grid">
           {timeline.map((value, id) => {
             return (
-              <Card
+              <AboutCard
                 key={id}
                 icon={value.icon}
                 title={value.title}
                 year={value.year}
                 desc={value.desc}
                 text={value.text}
-              ></Card>
+              ></AboutCard>
             );
           })}
         </div>
