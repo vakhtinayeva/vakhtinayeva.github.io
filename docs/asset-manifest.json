@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.12ad4c07.css",
-    "main.js": "/static/js/main.9c992231.js",
+    "main.css": "/static/css/main.7cc8c860.css",
+    "main.js": "/static/js/main.bc322197.js",
     "static/media/education.jpg": "/static/media/education.e9604db8c5a000ab6bbb.jpg",
     "static/media/ts_project.png": "/static/media/ts_project.55fd140ffba136e082b6.png",
     "static/media/sequelize.png": "/static/media/sequelize.8c389dc392d00f76753b.png",
@@ -10,20 +10,21 @@
     "static/media/mocha.png": "/static/media/mocha.925eea0aca0cde4c49f5.png",
     "static/media/node.png": "/static/media/node.fc3bd1ec69d7a50e685a.png",
     "static/media/aggregation.jpeg": "/static/media/aggregation.b542498b656010cba04f.jpeg",
-    "static/media/java.png": "/static/media/java.6b69aa9efb979367dd5c.png",
     "static/media/avatar2.jpeg": "/static/media/avatar2.a789c4b79a30093ca86b.jpeg",
     "static/media/js_project.png": "/static/media/js_project.5ab7023abfe472d6caf1.png",
     "static/media/avatar1.jpeg": "/static/media/avatar1.b10a2119cb96a0b739ca.jpeg",
+    "static/media/react.png": "/static/media/react.b76698cf6e821b8a8758.png",
     "static/media/react_project.jpg": "/static/media/react_project.90b4f40176df567d575c.jpg",
+    "static/media/css.png": "/static/media/css.2145bb6c7160a7e0d8ab.png",
     "static/media/python_project.png": "/static/media/python_project.76cfe594824b43aac97f.png",
     "static/media/postgres.png": "/static/media/postgres.1840ed8db24169a95af0.png",
     "static/media/docker.png": "/static/media/docker.c1404d2c9eb77e0a00a3.png",
     "static/media/frontend_project.jpg": "/static/media/frontend_project.6e33cc622ac9bc42d8e1.jpg",
     "static/media/redis.png": "/static/media/redis.0e9ff51f8d67783efe4f.png",
     "static/media/jenkins.jpg": "/static/media/jenkins.3ce11fe512d61bbf7770.jpg",
-    "static/media/front.jpg": "/static/media/front.38d5fd6e314d631cd745.jpg",
     "static/media/chai.png": "/static/media/chai.3002f262334250cac298.png",
     "static/media/java_project.jpg": "/static/media/java_project.0037ed9f0e9276773645.jpg",
+    "static/media/java.png": "/static/media/java.66d5a4fef00821dfe115.png",
     "static/media/js.png": "/static/media/js.d206e1f67e4c0985166c.png",
     "static/media/github.png": "/static/media/github.7c8f7736007664c4b0ba.png",
     "static/media/integration1.png": "/static/media/integration1.596eb3534d3c2b0ad156.png",
@@ -32,18 +33,18 @@
     "static/media/implementation2.png": "/static/media/implementation2.78581fcc4ac94e63a166.png",
     "static/media/prisma.jpg": "/static/media/prisma.03a065f56fa6983bd36f.jpg",
     "static/media/nest.png": "/static/media/nest.def53af752a21d5c72e7.png",
-    "static/media/react.png": "/static/media/react.3d3d8a9a7d22a9627c1e.png",
     "static/media/jira.png": "/static/media/jira.4ed1e56294cedcad4494.png",
     "static/media/confluence.png": "/static/media/confluence.4f89b14be62fabbfe20c.png",
     "static/media/mysql.png": "/static/media/mysql.4676ad983d6bd3e9fac9.png",
     "static/media/ts.png": "/static/media/ts.0e441eed78ba11c335df.png",
     "static/media/typeorm.png": "/static/media/typeorm.f3094d8aa22bb5198454.png",
+    "static/media/html.svg": "/static/media/html.5a1d64e61bef0563bd69b1d9c3b66216.svg",
     "index.html": "/index.html",
-    "main.12ad4c07.css.map": "/static/css/main.12ad4c07.css.map",
-    "main.9c992231.js.map": "/static/js/main.9c992231.js.map"
+    "main.7cc8c860.css.map": "/static/css/main.7cc8c860.css.map",
+    "main.bc322197.js.map": "/static/js/main.bc322197.js.map"
   },
   "entrypoints": [
-    "static/css/main.12ad4c07.css",
-    "static/js/main.9c992231.js"
+    "static/css/main.7cc8c860.css",
+    "static/js/main.bc322197.js"
   ]
 }
