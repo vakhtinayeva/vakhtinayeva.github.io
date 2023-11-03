@@ -3,7 +3,6 @@
 
 :root {
     /* Colors */
-    /* --first-color: hsl(0, 100%, 65%); */
     --first-color-full: hsla(239, 78%, 35%, 0.9);
     --first-color-light: hsla(239, 78%, 35%, 0.5);
     --title-color: hsl(244, 24%, 26%);
