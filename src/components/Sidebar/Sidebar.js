@@ -6,10 +6,6 @@ const Sidebar = () => {
   return (
     <>
       <nav className={toggle ? "navbar show-menu" : "navbar"}>
-        {/* <a href="#home" className="nav__logo">
-          <img src={Logo} alt="logo"></img>
-        </a> */}
-
         <ul className="nav__list">
           <li className="nav__item">
             <a href="#home" className="nav__link">
@@ -48,10 +44,6 @@ const Sidebar = () => {
             </a>
           </li>
         </ul>
-
-        {/* <div className="nav__footer">
-          <span className="copyright">&copy; YV </span>
-        </div> */}
       </nav>
 
       <div
