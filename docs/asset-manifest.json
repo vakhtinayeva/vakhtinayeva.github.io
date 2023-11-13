@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7cc8c860.css",
-    "main.js": "/static/js/main.bc322197.js",
+    "main.js": "/static/js/main.5c7388e3.js",
     "static/media/education.jpg": "/static/media/education.e9604db8c5a000ab6bbb.jpg",
     "static/media/ts_project.png": "/static/media/ts_project.55fd140ffba136e082b6.png",
     "static/media/sequelize.png": "/static/media/sequelize.8c389dc392d00f76753b.png",
@@ -10,12 +10,12 @@
     "static/media/mocha.png": "/static/media/mocha.925eea0aca0cde4c49f5.png",
     "static/media/node.png": "/static/media/node.fc3bd1ec69d7a50e685a.png",
     "static/media/aggregation.jpeg": "/static/media/aggregation.b542498b656010cba04f.jpeg",
-    "static/media/avatar2.jpeg": "/static/media/avatar2.a789c4b79a30093ca86b.jpeg",
     "static/media/js_project.png": "/static/media/js_project.5ab7023abfe472d6caf1.png",
     "static/media/avatar1.jpeg": "/static/media/avatar1.b10a2119cb96a0b739ca.jpeg",
     "static/media/react.png": "/static/media/react.b76698cf6e821b8a8758.png",
     "static/media/react_project.jpg": "/static/media/react_project.90b4f40176df567d575c.jpg",
     "static/media/css.png": "/static/media/css.2145bb6c7160a7e0d8ab.png",
+    "static/media/avatar3.jpeg": "/static/media/avatar3.10f2ace563abebb1c225.jpeg",
     "static/media/python_project.png": "/static/media/python_project.76cfe594824b43aac97f.png",
     "static/media/postgres.png": "/static/media/postgres.1840ed8db24169a95af0.png",
     "static/media/docker.png": "/static/media/docker.c1404d2c9eb77e0a00a3.png",
@@ -41,10 +41,10 @@
     "static/media/html.svg": "/static/media/html.5a1d64e61bef0563bd69b1d9c3b66216.svg",
     "index.html": "/index.html",
     "main.7cc8c860.css.map": "/static/css/main.7cc8c860.css.map",
-    "main.bc322197.js.map": "/static/js/main.bc322197.js.map"
+    "main.5c7388e3.js.map": "/static/js/main.5c7388e3.js.map"
   },
   "entrypoints": [
     "static/css/main.7cc8c860.css",
-    "static/js/main.bc322197.js"
+    "static/js/main.5c7388e3.js"
   ]
 }
