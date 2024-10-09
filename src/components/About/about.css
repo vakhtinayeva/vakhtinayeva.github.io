@@ -1,11 +1,24 @@
 .about__container {
-    grid-template-columns: 8rem 20rem auto;
-    column-gap: 4rem;
+  min-height: 40rem;
+  position: relative;
 }
 
 .about__img {
-    border-radius: 50%;
-    height: 7rem;
+  height: 30rem;
+  width: 20rem;
+  float: left;
+  margin-left: 10rem;;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  margin-right: 10rem;
+  align-items: start;
+  position: absolute;
+  top: 5rem;
+  left: 32rem;
 }
 
 .about__data {

@@ -7,12 +7,27 @@ import { timeline } from "../../assets/data/timeline";
 const About = () => {
   return (
     <section className="about container section" id="about">
-      <h2 className="section__title">About Me</h2>
+      {/* <h2 className="section__title">About Me</h2> */}
 
-      <div className="about__container grid">
+      <div className="about__container">
         <img src={Avatar} alt="avatar" className="about__img"></img>
 
-        <div className="about__data grid">
+        <div className="about__content">
+          <div className="about__heading">EIN BISSCHEN UBER MICH</div>
+          <div className="about__text">
+              I am a web developer skilled at creating high-performance,
+              user-centric web solutions through innovative development and
+              effective collaboration. I am a web developer skilled at creating high-performance,
+              user-centric web solutions through innovative development and
+              effective collaboration. I am a web developer skilled at creating high-performance,
+              user-centric web solutions through innovative development and
+              effective collaboration.
+          </div>
+
+          <div className="about__contact">Want to work together? <strong>TEXT ME</strong></div>
+        </div>
+
+        {/* <div className="about__data grid">
           <p className="about__description">
                 I am a web developer skilled at creating high-performance,
             user-centric web solutions through innovative development and
@@ -43,7 +58,7 @@ const About = () => {
               ></AboutCard>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </section>
   );

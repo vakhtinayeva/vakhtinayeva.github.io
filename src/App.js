@@ -3,20 +3,23 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
-import Services from "./components/Services/Services";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import Experience from "./components/Experience/Experience";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar></Sidebar>
+      {/* <Sidebar></Sidebar> */}
       <main className="main">
         <Home></Home>
         <About></About>
-        <Skills></Skills>
+        <Experience></Experience>
         <Services></Services>
+        <Skills></Skills>
         <Projects></Projects>
+        {/* <Technologies></Technologies> */}
         <Footer></Footer>
       </main>
     </div>
